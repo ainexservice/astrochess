@@ -1,0 +1,16 @@
+{
+  "name": "AstroMul Chess — VIP Royal Edition",
+  "short_name": "AstroMul Chess",
+  "description": "A premium royal chess game with a smart computer, player stats, board themes and offline play.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#100b09",
+  "theme_color": "#100b09",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

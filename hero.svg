@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="A royal chess king between two knights in a dark wood and gold palace">
+ <defs>
+  <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#26130e"/><stop offset=".45" stop-color="#160b08"/><stop offset="1" stop-color="#080504"/></linearGradient>
+  <linearGradient id="gold" x2="0" y2="1"><stop stop-color="#fff3bd"/><stop offset=".28" stop-color="#f5c45d"/><stop offset=".62" stop-color="#b96b19"/><stop offset="1" stop-color="#4c220d"/></linearGradient>
+  <linearGradient id="ivory" x2="0" y2="1"><stop stop-color="#fff8de"/><stop offset=".5" stop-color="#d9b57b"/><stop offset="1" stop-color="#78502a"/></linearGradient>
+  <linearGradient id="darkpiece" x2="0" y2="1"><stop stop-color="#9b6040"/><stop offset=".45" stop-color="#482416"/><stop offset="1" stop-color="#170b08"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#e9a63d" stop-opacity=".55"/><stop offset="1" stop-color="#d37a1b" stop-opacity="0"/></radialGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+  <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+ </defs>
+ <rect width="1200" height="760" fill="url(#wood)"/>
+ <ellipse cx="600" cy="375" rx="430" ry="310" fill="url(#glow)" filter="url(#blur)"/>
+ <g opacity=".5" stroke="#a45c22" fill="none"><path d="M60 0v760M1140 0v760M105 0v760M1095 0v760" stroke-width="5"/><path d="M0 95Q600 5 1200 95M0 130Q600 42 1200 130" stroke-width="3"/></g>
+ <g opacity=".4" fill="#ffb943"><circle cx="110" cy="180" r="5"/><circle cx="1090" cy="170" r="5"/><circle cx="145" cy="530" r="4"/><circle cx="1050" cy="535" r="4"/></g>
+ <g transform="translate(110 140)" opacity=".65"><path d="M20 190h100l-15-24H35zM42 166l10-95h36l10 95zM50 71l-9-30h58l-9 30zM66 40V7h18v33" fill="url(#gold)" stroke="#ffd97e" stroke-width="4"/></g>
+ <g transform="translate(970 130) scale(.9)" opacity=".65"><path d="M20 190h100l-15-24H35zM42 166l10-95h36l10 95zM50 71l-9-30h58l-9 30zM66 40V7h18v33" fill="url(#gold)" stroke="#ffd97e" stroke-width="4"/></g>
+ <g transform="translate(0 575)" opacity=".75"><path d="M0 0h1200v185H0z" fill="#0b0604"/><path d="M0 20h1200M0 125h1200M200 0v185M400 0v185M600 0v185M800 0v185M1000 0v185" stroke="#9e5b24" stroke-width="3" opacity=".6"/><path d="M0 30h1200v95H0z" fill="none" stroke="#d49b40" stroke-width="2"/></g>
+ <ellipse cx="600" cy="584" rx="370" ry="40" fill="#d58a30" opacity=".25" filter="url(#shadow)"/>
+ <!-- left ivory knight -->
+ <g transform="translate(250 260) scale(1.05)">
+  <path d="M25 305h190l-12-29H37zM43 276q0-20 22-29l9-36q-41-17-44-54-3-34 31-62l-3-54q23 9 39 32 32-23 65-4 28 16 33 53l-17 33 18 39-9 54q27 15 30 28l-12 29z" fill="url(#ivory)" stroke="#fff0c7" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M77 113q28-8 49 13l17 30-27 12-27-22-30 9q-15-24 18-42z" fill="#fff3d0"/><path d="M116 142l52 2-22 18-31-1z" fill="#3a2115"/><circle cx="104" cy="126" r="7" fill="#24110b"/><path d="M75 197q51 20 94-10M84 237q52 11 87-10" stroke="#9f6b37" stroke-width="7" fill="none" stroke-linecap="round"/>
+ </g>
+ <!-- right dark knight -->
+ <g transform="translate(735 260) scale(1.05)">
+  <path d="M25 305h190l-12-29H37zM43 276q0-20 22-29l9-36q-41-17-44-54-3-34 31-62l-3-54q23 9 39 32 32-23 65-4 28 16 33 53l-17 33 18 39-9 54q27 15 30 28l-12 29z" fill="url(#darkpiece)" stroke="#d49659" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M77 113q28-8 49 13l17 30-27 12-27-22-30 9q-15-24 18-42z" fill="#9a6140"/><path d="M116 142l52 2-22 18-31-1z" fill="#120906"/><circle cx="104" cy="126" r="7" fill="#080403"/><path d="M75 197q51 20 94-10M84 237q52 11 87-10" stroke="#271109" stroke-width="7" fill="none" stroke-linecap="round"/>
+ </g>
+ <!-- central crowned king -->
+ <g transform="translate(485 85)">
+  <path d="M45 482h190l-18-38H63zM57 444l17-162q2-25 30-33h55q28 8 30 33l17 162z" fill="url(#gold)" stroke="#ffe5a2" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M85 252l-15-58q10-24 35-23h70q25 0 35 23l-15 58z" fill="url(#gold)" stroke="#ffe5a2" stroke-width="7"/>
+  <path d="M94 169l-15-72 49 31 15-62 15 62 49-31-15 72z" fill="url(#gold)" stroke="#fff0bd" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M143 66V8M112 35h62" stroke="#ffe8a7" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="143" cy="9" r="14" fill="#fff3c5" stroke="#bd7b24" stroke-width="5"/>
+  <path d="M85 321h111M75 385h135" stroke="#fff0b6" stroke-width="7" opacity=".55"/>
+  <path d="M40 482h200" stroke="#ffe3a1" stroke-width="9" stroke-linecap="round"/>
+ </g>
+ <g fill="none" stroke="url(#gold)" stroke-width="4" opacity=".9"><path d="M55 40h220q90 0 145 52M1145 40H925q-90 0-145 52"/><path d="M45 720h300M855 720h300"/></g>
+ <text x="600" y="680" fill="#fff0c9" font-family="Georgia,serif" font-size="38" text-anchor="middle" letter-spacing="5">ASTROMUL  •  ROYAL CHESS</text>
+</svg>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#100b09">
+  <meta name="description" content="AstroMul Chess VIP — a premium royal chess game with smart computer matches, player stats, board themes and offline play.">
+  <meta name="color-scheme" content="dark">
+  <title>AstroMul Chess — VIP Royal Edition</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="preload" as="image" href="hero-vip.webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="app-shell" aria-live="polite">
+    <section class="boot-screen" aria-label="Loading AstroMul Chess">
+      <div class="brand-emblem"><span class="emblem-sun">✦</span><span class="brand-small">ASTROMUL</span></div>
+      <h1>AstroMul <em>Chess</em></h1>
+      <p>Royal Strategy. Timeless Play.</p>
+      <div class="loading-track"><span></span></div>
+    </section>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="chess-engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

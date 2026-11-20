@@ -1,0 +1,25 @@
+ASTROMUL CHESS — VIP / ROYAL EDITION
+
+Release: 1.1
+Type: Static Web App / Installable PWA
+
+HOMEPAGE / DASHBOARD UPDATE
+- Rebuilt the Home Screen as a VIP chess dashboard.
+- Added custom cinematic royal chess hero artwork, optimized as WebP for mobile.
+- Added one-tap Quick Match (White, Medium AI, 10 minutes).
+- Added live local player rating, completed match count, and wins.
+- Added direct shortcuts for Board Themes, Piece Styles, Game Settings and How To Play.
+- Added Recent Matches preview with results and View All navigation.
+- Added current theme and piece-style labels to Home shortcuts.
+- Updated PWA branding and bumped offline cache version.
+- Hardened local history / rating reads against invalid local data.
+
+CORE GAME
+- Self-contained chess rules engine and local AI opponent.
+- Full special-move handling and legal move validation.
+- Six board themes and six piece material palettes.
+- Setup, game, pause, result, history, settings and help screens.
+- Clock, undo, hints, restart confirmation and PGN export.
+- Local settings/history persistence and PWA offline cache.
+
+See README.md and TEST-REPORT.txt for instructions, verified features, test scope and release limitations.

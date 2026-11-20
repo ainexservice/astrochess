@@ -1,0 +1,58 @@
+ASTROMUL CHESS — VIP / ROYAL EDITION
+RELEASE 1.1 — HOMEPAGE DASHBOARD UPDATE
+
+CHESS ENGINE TESTS — PASS
+- Standard starting position perft: 20 / 400 / 8,902.
+- Kiwipete perft: 48 / 2,039 / 97,862.
+- En-passant pin, castling, promotion and tactical positions.
+- Special-move generation and execution: castling, en passant and promotion.
+- Checkmate, stalemate, insufficient material, repetition and move-count draw rules.
+- Easy, Medium and Hard AI each return a legal move.
+- SAN checkmate suffix and en-passant repetition identity.
+
+HOMEPAGE DASHBOARD BROWSER TESTS — PASS
+- VIP hero artwork loads successfully.
+- Player rating, matches and wins display.
+- Board Theme, Piece Style, Settings and How To Play shortcuts display.
+- Recent Matches section displays, including first-run empty state.
+- One-tap Quick Match starts a real Medium, 10-minute game.
+- Every home shortcut opens its target and returns to Home.
+- Hamburger menu navigation works.
+- No uncaught browser JavaScript exceptions.
+
+GAME INTEGRATION TESTS — PASS
+- Standard 64-square board and White-at-bottom orientation.
+- Legal selection, e2-e4 and a valid AI reply.
+- Undo restores the full previous position.
+- Restart confirmation, cancellation and reset.
+- Clock pause / resume.
+- All six board themes and six piece styles apply in-game.
+- Settings toggles and return-to-game navigation.
+- Black-side selection, board rotation and computer first move.
+- Black-side legal move and AI response.
+- No uncaught browser JavaScript exceptions.
+
+UI EDGE TESTS — PASS
+- Promotion chooser offers all four pieces and applies Queen promotion.
+- Win result screen and Play Again flow.
+- Play Again starts a clean, connected game.
+
+RESPONSIVE BROWSER TESTS — PASS
+- 320 x 568 small phone.
+- 375 x 667 phone.
+- 412 x 915 large phone.
+- 768 x 1024 tablet.
+- 1280 x 800 desktop.
+- No horizontal overflow.
+- 64 squares and square board remain present.
+- Game board and bottom controls remain within tested viewport.
+
+TESTING SCOPE
+Automated browser tests were performed with desktop Chromium at the listed viewport sizes. A real physical Android / iPhone device test has not been performed.
+
+RELEASE SCOPE / LIMITATIONS
+- This is the web / installable PWA release, not a signed native APK, AAB or iOS IPA.
+- It is offline, single-player vs local computer AI.
+- Online multiplayer, user accounts and cloud sync are not included.
+- Piece-style choices are material/color treatments of chess glyphs, not individual 3D piece models.
+- The displayed player rating is a local casual-game score, not an official FIDE rating.
